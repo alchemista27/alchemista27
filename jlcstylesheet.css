@@ -1,3 +1,4 @@
+/*Ini adalah kode untuk mengubah style dari ojs itu sendiri*/
 .pkp_site_name .is_img img {
     display: inline-block;
     max-height: 100px;
@@ -5,6 +6,8 @@
     width: auto;
     height: auto;
 }
+
+/*Dari sini merupakan kode untuk styling sidebar menu*/
 .pemisah_tabel {
     margin-bottom: 10px;
 }
@@ -45,6 +48,16 @@ table {
 .badan_tabel td:hover {
     background-color: #F5F5F5;
     color: #D22780;
+}
+
+.badan_tabel a {
+    text-decoration: none;
+    color: #100303;
+}
+
+.badan_tabel a:active {
+    text-decoration: none;
+    color: #E1E5EA;
 }
 
 .tabel_visitor {
@@ -92,6 +105,7 @@ table {
     background-color: #E1E5EA;
 }
 
+/*Dari sini adalah kode styling Additional info*/
 .informasi {
     content: none;
     display: table;
